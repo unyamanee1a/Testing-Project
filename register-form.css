@@ -1,0 +1,39 @@
+body{
+    background-color: burlywood;
+    font-family: "Montserrat", sans-serif;
+}
+
+.formframe{
+    background-color: white;
+    border-radius: 30px;
+    margin: auto;
+    height: 100%;
+    width:fit-content;
+
+}
+
+.formlayout{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 20px;
+}
+
+.header{
+    align-items: start;
+}
+
+.userName{
+    display: flex;
+    gap: 10px;
+}
+
+.birthDateAndGender{
+    display: flex;
+    gap: 10px;
+}
+
+.contact{
+    display: flex;
+    gap: 10px;
+}
