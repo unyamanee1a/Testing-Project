@@ -7,70 +7,59 @@
     <link rel="stylesheet" href="register-form.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"></head>
-<body>
-    <div class="formframe">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">    <div class="formframe">
         <div class="formlayout">
             <div class="header">Register Form</div>
             <div class="userName">
                 <div class="firstName">
-                    <form>
                         <label>Frist Name</label>
-                        <br>
                         <input type="text">
-                        </br>
-                    </form>
                 </div>
                 <div class="lastName">
                     <label for="lastName">Last Name</label>
-                    <br>
                     <input type="text">
-                    </br>
                 </div>
             </div>
             <div class="birthDateAndGender">
                 <div class="birthDate">
                     <label for="birthDate">Birhtday</label>
-                    <br>
                     <input type="date" id="birhtday" name="birhtday">
-                    </br>
                 </div>
-                <div class="gender">Gender
-                    <br>
+                <div class="gender">
+                    <label>Gender</label>
+                    <div class="option">
+                    <div class="genderOption">
                         <input type="radio" id="male" name="gender" value="Male">
                         <label for="male">Male</label>
+                    </div>
+                    <div class="genderOption">
                         <input type="radio" id="female" name="gender" value="Female">
                         <label for="Female">Female</label>
-                    </br>
+                    </div>
+                </div>
                 </div>
             </div>
             <div class="contact">
                 <div class="mail">
                     <label for="Email">Email</label>
-                    <br>
                     <input type="email" id="email" name="email">
-                    </br>
                 </div>
                 <div class="phoneNumeber">
                     <label for="phoneNumeber">Phone Number</label>
-                    <br>
                     <input type="text">
-                    </br>
                 </div>
             </div>
             <div class="subject">
                 <label for="subject">Subject</label>
-                <br>
                 <select name="subject" id="subject">
                     <option value="" disabled selected>Choose you option</option>
                     <option value="ruby">Ruby On Rails</option>
                     <option value="javascript">Javascript</option>
                     <option value="typescript">Typescript</option>
                 </select>
-                </br>
             </div>
             <div class="submit">
-                <input type="submit" value="submit">
+                <button type="submit" value="submit">submit</button>
             </div>
         </div>
     </div>
